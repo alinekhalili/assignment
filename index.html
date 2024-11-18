@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <h1>Restaurant Menu</h1>
+    <select id="filter-category">
+      <option value="All">All</option>
+      <option value="Appetizers">Appetizers</option>
+      <option value="Main Courses">Main Courses</option>
+      <option value="Desserts">Desserts</option>
+    </select>
+  </header>
+
+  <main>
+    <div id="menu-container" class="menu-container"></div>
+  </main>
+  <div id="modal" class="modal">
+    <div id="modal-content" class="modal-content"></div>
+    <button id="modal-close" class="modal-close">Close</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
